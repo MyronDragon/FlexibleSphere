@@ -1,0 +1,17 @@
+{
+  "Name": "FlexibleSphere to SMG2",
+  "Author": "Myron Dragon",
+  "Description": "A port of the FlexibleSphere class to smg2. \n - Obj_Arg0: Maximum scale of the object, multiplied by 10000. Default is 10000. \n - Obj_Arg1: Minimum scale of the object, multiplied by 10000. Default is 1000. \n - Obj_Arg2: Scaling rate of the object, multiplied by 10000. Default is 20. \n - Obj_Arg3: If set to 1, the object disappears after reaching the minimum scale. \n - SW_DEAD: Gets activated when it vanishes. Obj_arg3 must be set to 1 for this to be possible. \n - SW_A: Enables the shrinking and growing once activated.",
+  "InstallDependencies": [ "Syati_ObjectFactories", "Syati_Init" ],
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "FlexibleSphere",
+          "Function": "createExtActor<FlexibleSphere>",
+          "Include": "FlexibleSphere.h"
+        }
+      ]
+    }
+  ]
+}

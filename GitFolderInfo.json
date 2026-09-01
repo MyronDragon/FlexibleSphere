@@ -1,0 +1,7 @@
+{
+  "Version": 1,
+  "Files": [
+    "include/FlexibleSphere.h",
+    "source/FlexibleSphere.cpp"
+  ]
+}
